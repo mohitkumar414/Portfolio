@@ -88,7 +88,7 @@ function SocialLink({ href, icon, label }: { href: string; icon: React.ReactNode
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="group relative p-3 bg-gray-900 text-gray-400 rounded-full hover:bg-white hover:text-black hover:scale-110 transition-all duration-300 border border-gray-800"
+      className="group relative p-3 bg-gray-900 text-gray-400 rounded-full hover:bg-cyan-400 hover:text-black hover:scale-110 transition-all duration-300 border border-gray-800"
     >
       {/* The Icon */}
       {icon}
