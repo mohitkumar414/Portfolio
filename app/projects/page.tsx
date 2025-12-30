@@ -28,7 +28,7 @@ export default function ProjectsPage() {
         <div className="space-y-16 mb-24">
           <ProjectCard
             title="NoteForge AI"
-            description="A curriculum-aligned learning platform that solves information fragmentation. It maps unstructured syllabus PDFs to structured learning modules using Gemini Flash 2.5."
+            description="Designed to solve the scarcity of structured study materials, NoteForge AI empowers engineering students by instantly generating exam-oriented notes and model question papers based on their specific university syllabus. The platform enhances accessibility through an interactive 'Reader Mode' with synchronous audio highlighting and offers comprehensive progress tracking. It bridges the gap between complex curriculums and effective revision through intelligent automation."
             tags={["Next.js 16", "TypeScript", "MongoDB", "Gemini API"]}
             links={{
               demo: "https://note-forge-ai-brown.vercel.app/",
