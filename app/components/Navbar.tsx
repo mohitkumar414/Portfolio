@@ -20,7 +20,7 @@ export default function Navbar() {
                 {/* Logo / Name */}
                 <Link href="/" className="text-xl font-bold tracking-tight">
                     <span className="text-cyan-500 font-extrabold transition-all duration-300 hover:text-cyan-400 hover:drop-shadow-[0_0_12px_rgba(34,211,238,0.9)]">
-                        Mohit Kumar Lottla
+                        L Mohit Kumar
                     </span>
                 </Link>
 

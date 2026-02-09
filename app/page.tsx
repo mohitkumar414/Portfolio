@@ -27,7 +27,7 @@ export default function Home() {
 
           {/* Short Description */}
           <div className="space-y-2">
-            <h1 className="text-3xl font-bold text-white">Mohit Kumar Lottla</h1>
+            <h1 className="text-3xl font-bold text-white">Lottla Mohit Kumar</h1>
             <p className="text-gray-400 font-medium text-lg leading-relaxed max-w-sm">
               Full-Stack Developer focused on building<br />
               AI-powered, scalable web applications.<br />
