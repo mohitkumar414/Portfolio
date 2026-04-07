@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { Calendar, MapPin, Download, ExternalLink } from "lucide-react";
 
-// ✅ UPDATED DATA WITH YOUR SPECIFIC EXPERIENCE
+
 const experiences = [
   {
     id: 1,
@@ -85,7 +85,7 @@ export default function ExperiencePage() {
           <motion.a
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
-            href="/resume.pdf" // 👈 Ensure resume.pdf is in your /public folder
+            href="/RESUME1.pdf" 
             target="_blank"
             className="flex items-center gap-2 px-6 py-3 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:shadow-[0_0_25px_rgba(255,255,255,0.2)]"
           >
@@ -106,7 +106,7 @@ export default function ExperiencePage() {
               className="relative pl-8 md:pl-12"
             >
               {/* Timeline Dot */}
-              <span className="absolute -left-[5px] top-2 w-2.5 h-2.5 bg-blue-500 rounded-full shadow-[0_0_8px_#3b82f6]"></span>
+              <span className="absolute -left-1.25 top-2 w-2.5 h-2.5 bg-blue-500 rounded-full shadow-[0_0_8px_#3b82f6]"></span>
 
               {/* Card Content */}
               <div className="bg-gray-900/40 border border-gray-800 rounded-2xl p-6 md:p-8 hover:border-gray-700 transition-colors">
@@ -142,7 +142,7 @@ export default function ExperiencePage() {
                 <ul className="space-y-3 mb-6">
                   {exp.description.map((item, i) => (
                     <li key={i} className="flex items-start gap-3 text-gray-300 leading-relaxed">
-                      <span className="mt-2 w-1.5 h-1.5 bg-gray-600 rounded-full flex-shrink-0"></span>
+                      <span className="mt-2 w-1.5 h-1.5 bg-gray-600 rounded-full shrink-0"></span>
                       <span>{item}</span>
                     </li>
                   ))}
